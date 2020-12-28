@@ -7,14 +7,14 @@ function MoviesList({moviesList , nameSearch, ratingSearch }) {
              {moviesList
         .filter(
           (el) =>
-            el.title.toLowerCase().includes(nameSearch.toLowerCase().trim()) &&
+            el.name.toLowerCase().includes(nameSearch.toLowerCase().trim()) &&
             el.rating >= ratingSearch
         )
-        .map((el, i) => (
-          <MovieCard key={i} movie={el} />
+        .map((movie, i) => (
+          <MovieCard key={i} movie={movie} />
         ))}
         </div>
-    )
+    );
 }
 
 export default MoviesList

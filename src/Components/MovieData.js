@@ -1,7 +1,7 @@
 export const moviesData =[
 {
     id: 1,
-    title: "The Platform",
+    name: "The Platform",
     rating: 4,
     year: "2019",
     genre: "Social science fiction,horror",
@@ -12,7 +12,7 @@ export const moviesData =[
   },
   {
     id: 2,
-    title: "Papillon",
+    name: "Papillon",
     rating: 3,
     year: "2017",
     genre: "Drama, Biographical",
@@ -23,7 +23,7 @@ export const moviesData =[
   },
   {
     id: 3,
-    title: "Bright",
+    name: "Bright",
     rating: 3,
     year: "2017",
     genre: "Action, Crime, Fantasy",
@@ -34,7 +34,7 @@ export const moviesData =[
   },
   {
     id: 4,
-    title: "Jumanji: The Next Level",
+    name: "Jumanji: The Next Level",
     rating: 3,
     year: "2019",
     genre: "Action, Adventure, Comedy",
@@ -45,7 +45,7 @@ export const moviesData =[
   },
   {
     id: 5,
-    title: "Tomb Raider",
+    name: "Tomb Raider",
     rating: 4,
     year: "2018",
     genre: "Action, Fantasy",
@@ -56,7 +56,7 @@ export const moviesData =[
   },
   {
     id: 6,
-    title: "Black Panther",
+    name: "Black Panther",
     rating: 4,
     year: "2018",
     genre: "Action, Adventure, Sci-Fi",

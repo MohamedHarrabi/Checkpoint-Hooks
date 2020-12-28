@@ -20,7 +20,8 @@ function App() {
 
   return (
   <div className="App">
-        <SearchMovie
+
+        <SearchMovie className="s"
         setNameSearch={setNameSearch}
         ratingSearch={ratingSearch}
         setRatingSearch={setRatingSearch}

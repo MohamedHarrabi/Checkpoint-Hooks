@@ -218,12 +218,25 @@ html, body{
   background: url("https://upload.wikimedia.org/wikipedia/commons/9/98/Black_Panther_Logo_Black.svg");
 }
 
-
-
- .search_class{
+.search_class{
   display: flex;
+  align-items: center;
   justify-content: center;
-} 
+  
+}
+
+.rating-search{
+  margin: 13px 0 0 0 ;
+  font-size: 30px;
+}
+
+.inputbar{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  margin: 20px 20px 0 0 ;
+  border-radius: 15px;
+}
 
 .Add-btn {
   background-color: black;
